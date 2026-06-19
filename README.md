@@ -1,62 +1,76 @@
-# Zomato Dataset Analysis
+# Alfido Tech Data Science Internship
 
-## Objective
-Analyze Zomato restaurant data to identify factors influencing restaurant ratings, customer engagement, and popularity.
+## Overview
+This repository contains the projects completed as part of the Alfido Tech Data Science Internship Program. The projects focus on data analysis, machine learning, visualization, and business insights using real-world datasets.
 
-## Dataset
-Zomato Restaurant Dataset
+## Projects
 
-## Tools & Libraries
+### Task 1 - Zomato Dataset Analysis
+Analyzed restaurant data to identify factors affecting ratings, customer engagement, and restaurant popularity.
+
+**Key Areas**
+- Data Cleaning
+- Exploratory Data Analysis
+- Rating Analysis
+- Cost vs Rating Analysis
+- Online Order Analysis
+- Correlation Analysis
+
+---
+
+### Task 2 - Loan Approval Prediction
+Built machine learning models to predict loan approval based on applicant demographics and financial information.
+
+**Key Areas**
+- Data Preprocessing
+- Feature Encoding
+- Feature Scaling
+- Logistic Regression
+- Decision Tree Classification
+- Model Evaluation using Precision, Recall, F1 Score and ROC-AUC
+
+---
+
+### Task 3 - Instagram Engagement Analysis
+Analyzed Instagram engagement data to identify optimal posting schedules and content strategies.
+
+**Key Areas**
+- Engagement Analysis
+- Posting Time Analysis
+- Content Performance Analysis
+- Hashtag Analysis
+- Follower Growth Analysis
+- Content Strategy Recommendations
+
+---
+
+## Technologies Used
+
 - Python
 - Pandas
 - NumPy
 - Matplotlib
 - Seaborn
+- Scikit-Learn
+- Google Colab
+- Jupyter Notebook
 
-## Data Preprocessing
-- Loaded dataset using Pandas
-- Checked dataset shape and column information
-- Verified missing values
-- Removed duplicate records
-- Converted rating column from string format (e.g., 4.1/5) to numeric values
+---
 
-## Exploratory Data Analysis
+## Repository Structure
 
-### 1. Restaurant Categories Analysis
-Analyzed the distribution of restaurant categories such as Dining, Cafes, Buffet, and Others.
+```text
+Alfido-All-Tasks
+│
+├── Task1_Zomato_Analysis
+├── Task2_Loan_Approval_Prediction
+└── Task3_Instagram_Engagement_Analysis
+```
 
-### 2. Online Order Analysis
-Studied the availability of online ordering facilities across restaurants.
+---
 
-### 3. Rating Distribution
-Visualized how restaurant ratings are distributed.
+## Author
 
-### 4. Online Order vs Rating
-Compared average ratings between restaurants that provide online ordering and those that do not.
-
-### 5. Table Booking vs Rating
-Compared average ratings between restaurants offering table booking and those without table booking.
-
-### 6. Most Popular Restaurants
-Identified top restaurants based on customer votes.
-
-### 7. Cost vs Rating Analysis
-Explored the relationship between restaurant cost and customer ratings.
-
-### 8. Correlation Analysis
-Generated a correlation heatmap for numerical features.
-
-## Key Findings
-- Dining restaurants are the most common category.
-- Restaurants offering online ordering generally have better ratings.
-- Restaurants with table booking facilities receive higher average ratings.
-- Higher customer votes are associated with better ratings.
-- Cost and rating show a weak positive relationship.
-
-## Files Included
-- `zomato_analysis.ipynb` – Complete analysis notebook
-- `cleaned_zomato_dataset.csv` – Cleaned dataset
-- `README.md` – Project documentation
-
-## Conclusion
-This analysis provides insights into customer preferences, restaurant popularity, and factors affecting ratings. The findings can help restaurant owners improve customer satisfaction and business performance.
+**Srinidhi Akkenapally**  
+B.Tech CSE (Data Science)  
+Anurag University
